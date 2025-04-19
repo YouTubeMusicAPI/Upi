@@ -1,3 +1,7 @@
-flask
-imaplib2
-email
+Flask==2.3.3
+gunicorn==21.2.0
+flask-bootstrap==3.3.7.1
+beautifulsoup4==4.12.3
+lxml==5.1.0
+imaplib2==3.6
+email-validator==2.1.1

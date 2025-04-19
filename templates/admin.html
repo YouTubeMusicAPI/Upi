@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <h2>Admin Panel - All Payments</h2>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th>Name</th>
+            <th>UPI ID</th>
+            <th>Amount</th>
+            <th>UTR</th>
+            <th>Time</th>
+            <th>Status</th>
+        </tr>
+        {% for p in data %}
+        <tr>
+            <td>{{ p.name }}</td>
+            <td>{{ p.upi }}</td>
+            <td>₹{{ p.amount }}</td>
+            <td>{{ p.utr }}</td>
+            <td>{{ p.time }}</td>
+            <td>{{ p.status }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

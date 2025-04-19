@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pay With Abhi❤️</title>
+</head>
+<body>
+    <h2>Scan & Pay</h2>
+    <img src="/static/qr.png" width="300"><br>
+    <p>Pay to UPI ID: <strong>genuine-sellers@ibl</strong></p>
+
+    <h3>Submit Your Payment Details</h3>
+    <form method="POST" action="/submit">
+        <label>Name:</label><br>
+        <input type="text" name="name" required><br><br>
+        <label>Your UPI ID:</label><br>
+        <input type="text" name="upi" required><br><br>
+        <label>Amount:</label><br>
+        <input type="number" name="amount" required><br><br>
+        <label>UTR / Ref ID:</label><br>
+        <input type="text" name="utr" required><br><br>
+        <input type="submit" value="Submit Payment Details">
+    </form>
+</body>
+</html>

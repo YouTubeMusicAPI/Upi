@@ -5,7 +5,7 @@ import re
 from datetime import datetime
 
 EMAIL = "abhishekbanshiwal2005@gmail.com"
-PASSWORD = "abhishek@2005"
+PASSWORD = "efne vixb oryp axfr"
 IMAP_SERVER = "imap.gmail.com"
 
 def save_payment(entry):
